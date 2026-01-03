@@ -1,0 +1,60 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Element selector */
+p {
+  color: #333;
+  font-size: 16px;
+}
+
+/* Class selector */
+.highlight {
+  background-color: #ffeb3b;
+  padding: 5px;
+}
+
+/* ID selector */
+#main-title {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Group selector */
+h2, li {
+  color: green;
+}
+
+/* Descendant selector */
+.box p {
+  color: brown;
+}
+
+/* Child selector */
+.box > ul {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Attribute selector */
+input[type="text"] {
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+/* Pseudo-class selector */
+a:hover {
+  color: red;
+}
+
+/* Box styling */
+.box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
