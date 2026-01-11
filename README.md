@@ -37,6 +37,12 @@ As I progress, this repository will expand to include **JavaScript** and more ad
 ### Knowledge Vault
 A static website built using HTML and CSS, designed to reinforce core web development concepts such as layout structure, styling, and content organization.
 
+Live Website Link:
+<a href="https://nilanjanajui.github.io/Assignment-01-Project-PH/" target="_blank" rel="noopener noreferrer">
+  https://nilanjanajui.github.io/Assignment-01-Project-PH/
+</a>
+
+
 ---
 
 ## Objectives
