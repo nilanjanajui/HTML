@@ -9,32 +9,41 @@
     font-optical-sizing: auto;
 }
 
+#banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.65) 50%,
+        rgba(0, 0, 0, 0.85) 100%
+    );
+    z-index: 1;
+}
+
+
 #banner {
     position: relative;
     min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 70px 134px;
+    padding: 0 70px;
     background-image: url("../images/donation1.jpg");
     background-size: cover;
     background-position: center;
     color: white;
 }
 
-#banner::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.678));
-    z-index: 1;
-}
 
 .banner-container {
     position: relative;
     z-index: 2;
     text-align: center;
     justify-content: center;
+    padding: 40px 0;
+
 }
 
 #banner h1 {
@@ -47,8 +56,8 @@
 }
 
 #banner p {
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 2;
     color: white;
     max-width: 691px;
     text-align: center;
@@ -63,10 +72,10 @@
     margin-top: 32px;
 
     background-color: #ff5959;
-    padding: 16px 20px;
+    padding: 18px 22px;
     border: none;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
     color: white;
     cursor: pointer;
