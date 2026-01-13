@@ -177,7 +177,7 @@
 
 
 /* Other amount */
-.other-amount p {
+/* .other-amount p {
     font-size: 15px;
     color: #aaa;
     margin: 60px 0 24px;
@@ -192,9 +192,43 @@
     height: 1px;
     background-color: #e5e5e5;
     margin: 12px auto 0;
+} */
+
+.other-amount {
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Input styled like plain text */
+.other-amount input {
+    font-size: 18px;
+    color: #b5b5b5;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 500px;
+    max-width: 90%;
+    padding-bottom: 12px;
+}
 
+/* Divider line */
+.other-amount input {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* On focus */
+.other-amount input:focus {
+    color: #333;
+    border-bottom-color: #ccc;
+}
+
+.other-amount .donate-btn {
+    margin-top: 40px;
+}
 
 
 
