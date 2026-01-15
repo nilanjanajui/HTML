@@ -436,7 +436,7 @@ p {
 }
 
 
-#humble {
+/* #humble {
     margin-top: 130px;
     background-color: #0B0D17;
     height: 300px;
@@ -462,8 +462,33 @@ p {
 
 #humble .be-humble p {
     color: #D9DBE1;
+} */
+
+#humble {
+    margin-top: 130px;
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 55px 20px;   /* flexible padding */
 }
 
+#humble .be-humble {
+    max-width: 800px;    /* controls width instead of padding */
+    margin: 45px auto;
+}
+
+#humble .be-humble h3 {
+    color: #FF5959;
+    font-size: 38px;
+    margin-bottom: 24px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+}
+
+#humble .be-humble p {
+    color: #D9DBE1;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 
 
@@ -552,6 +577,22 @@ p {
     .content.image img {
         height: 380px;
     }
+
+
+    #humble {
+        margin-top: 100px;
+        padding: 50px 30px;
+    }
+
+    #humble .be-humble {
+        max-width: 600px;
+    }
+
+    #humble .be-humble h3 {
+        font-size: 32px;
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -763,6 +804,24 @@ p {
         border-radius: 6px;
         padding: 12px 0;
         font-size: 16px;
+    }
+
+
+    #humble {
+        margin-top: 80px;
+        padding: 40px 16px;
+    }
+
+    #humble .be-humble {
+        margin: 20px auto;
+    }
+
+    #humble .be-humble h3 {
+        font-size: 26px;
+    }
+
+    #humble .be-humble p {
+        font-size: 14px;
     }
 
 
