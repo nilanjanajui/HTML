@@ -42,6 +42,13 @@ Live Website Link:
   https://nilanjanajui.github.io/Assignment-01-Project-PH/
 </a>
 
+### Donate Today
+
+A simple, responsive donation-themed website built with **HTML** and **CSS**. This project focuses on clean layout, basic responsiveness, and a clear call-to-action for charitable donations.
+
+**Live Demo:** [https://nilanjanajui.github.io/Donate-Today/](https://nilanjanajui.github.io/Donate-Today/)
+
+
 
 ---
 
