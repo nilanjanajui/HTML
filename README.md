@@ -48,6 +48,12 @@ A simple, responsive donation-themed website built with **HTML** and **CSS**. Th
 
 **Live Demo:** [https://nilanjanajui.github.io/Donate-Today/](https://nilanjanajui.github.io/Donate-Today/)
 
+### TechWave
+
+TechWave is a responsive podcast website built with HTML and CSS. It features a modern hero section, podcast highlights, episode listings, host information, and a visually rich footer. The layout is fully responsive across mobile, tablet, and desktop devices, with carefully designed breakpoints to ensure consistent spacing, readability, and visual balance on all screen sizes.
+
+**Live Demo:** [https://nilanjanajui.github.io/PH-Assignment-02-Project-TechWave/](https://nilanjanajui.github.io/PH-Assignment-02-Project-TechWave/)
+
 
 
 ---
